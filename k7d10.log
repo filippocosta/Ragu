@@ -1,0 +1,34 @@
+Num GPUs Available:  1
+Finished 20000 entries
+Finished 40000 entries
+Finished 60000 entries
+Kmer:  7
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding (Embedding)        (None, None, 10)          163850    
+_________________________________________________________________
+bidirectional (Bidirectional (None, 10)                640       
+_________________________________________________________________
+dense (Dense)                (None, 10)                110       
+_________________________________________________________________
+dense_1 (Dense)              (None, 1)                 11        
+=================================================================
+Total params: 164,611
+Trainable params: 164,611
+Non-trainable params: 0
+_________________________________________________________________
+None
+Train on 469529 samples, validate on 117383 samples
+Epoch 1/5
+469529/469529 - 570s - loss: 0.5532 - accuracy: 0.7094 - val_loss: 0.4657 - val_accuracy: 0.7843
+Epoch 2/5
+469529/469529 - 603s - loss: 0.3961 - accuracy: 0.8279 - val_loss: 0.4348 - val_accuracy: 0.8100
+Epoch 3/5
+469529/469529 - 611s - loss: 0.3138 - accuracy: 0.8728 - val_loss: 0.3419 - val_accuracy: 0.8580
+Epoch 4/5
+469529/469529 - 584s - loss: 0.2593 - accuracy: 0.8992 - val_loss: 0.2905 - val_accuracy: 0.8859
+Epoch 5/5
+469529/469529 - 571s - loss: 0.2203 - accuracy: 0.9170 - val_loss: 0.2536 - val_accuracy: 0.9044
+Accuracy: 90.44%

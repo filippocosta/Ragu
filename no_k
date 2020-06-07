@@ -1,0 +1,226 @@
+2020-06-04 10:23:00.274115: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcuda.so.1
+2020-06-04 10:23:00.775964: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-04 10:23:00.777137: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:00:05.0 name: Tesla T4 computeCapability: 7.5
+coreClock: 1.59GHz coreCount: 40 deviceMemorySize: 14.75GiB deviceMemoryBandwidth: 298.08GiB/s
+2020-06-04 10:23:00.777643: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-06-04 10:23:00.785416: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-06-04 10:23:00.791574: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-06-04 10:23:00.792397: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-06-04 10:23:00.801102: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-06-04 10:23:00.804392: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-06-04 10:23:00.819068: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-06-04 10:23:00.819295: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-04 10:23:00.820290: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-04 10:23:00.821170: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+Num GPUs Available:  1
+--------------------------------- NO KMER ----------------------------------------------
+Finished 20000 entries
+Finished 40000 entries
+Finished 60000 entries
+Kmer:  5
+2020-06-04 10:25:45.166671: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 AVX512F FMA
+2020-06-04 10:25:45.175207: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2299995000 Hz
+2020-06-04 10:25:45.176463: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55c7308254b0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2020-06-04 10:25:45.176513: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+2020-06-04 10:25:45.176985: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-04 10:25:45.177815: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1555] Found device 0 with properties: 
+pciBusID: 0000:00:05.0 name: Tesla T4 computeCapability: 7.5
+coreClock: 1.59GHz coreCount: 40 deviceMemorySize: 14.75GiB deviceMemoryBandwidth: 298.08GiB/s
+2020-06-04 10:25:45.177933: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-06-04 10:25:45.177951: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-06-04 10:25:45.177965: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcufft.so.10
+2020-06-04 10:25:45.177980: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcurand.so.10
+2020-06-04 10:25:45.178014: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusolver.so.10
+2020-06-04 10:25:45.178029: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcusparse.so.10
+2020-06-04 10:25:45.178044: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+2020-06-04 10:25:45.178133: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-04 10:25:45.178912: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-04 10:25:45.179689: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1697] Adding visible gpu devices: 0
+2020-06-04 10:25:45.179856: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudart.so.10.1
+2020-06-04 10:25:45.795316: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1096] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-06-04 10:25:45.795627: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1102]      0 
+2020-06-04 10:25:45.795679: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1115] 0:   N 
+2020-06-04 10:25:45.797710: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-04 10:25:45.798868: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-04 10:25:45.799813: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:981] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-06-04 10:25:45.800879: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1241] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 14249 MB memory) -> physical GPU (device: 0, name: Tesla T4, pci bus id: 0000:00:05.0, compute capability: 7.5)
+2020-06-04 10:25:45.806083: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55c7311deda0 initialized for platform CUDA (this does not guarantee that XLA will be used). Devices:
+2020-06-04 10:25:45.806119: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Tesla T4, Compute Capability 7.5
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding (Embedding)        (None, None, 10)          10250     
+_________________________________________________________________
+bidirectional (Bidirectional (None, 20)                1680      
+_________________________________________________________________
+dense (Dense)                (None, 10)                210       
+_________________________________________________________________
+dense_1 (Dense)              (None, 1)                 11        
+=================================================================
+Total params: 12,151
+Trainable params: 12,151
+Non-trainable params: 0
+_________________________________________________________________
+None
+Train on 469529 samples, validate on 117383 samples
+Epoch 1/5
+2020-06-04 10:25:50.547581: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-06-04 10:25:51.210121: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+469529/469529 - 170s - loss: 0.6790 - accuracy: 0.5431 - val_loss: 0.6808 - val_accuracy: 0.5456
+Epoch 2/5
+469529/469529 - 163s - loss: 0.6749 - accuracy: 0.5525 - val_loss: 0.6847 - val_accuracy: 0.5414
+Epoch 3/5
+469529/469529 - 163s - loss: 0.6714 - accuracy: 0.5624 - val_loss: 0.6739 - val_accuracy: 0.5552
+Epoch 4/5
+469529/469529 - 171s - loss: 0.6689 - accuracy: 0.5685 - val_loss: 0.6741 - val_accuracy: 0.5551
+Epoch 5/5
+469529/469529 - 180s - loss: 0.6666 - accuracy: 0.5760 - val_loss: 0.6715 - val_accuracy: 0.5650
+Accuracy: 56.32%
+Kmer:  6
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_1 (Embedding)      (None, None, 10)          40970     
+_________________________________________________________________
+bidirectional_1 (Bidirection (None, 20)                1680      
+_________________________________________________________________
+dense_2 (Dense)              (None, 10)                210       
+_________________________________________________________________
+dense_3 (Dense)              (None, 1)                 11        
+=================================================================
+Total params: 42,871
+Trainable params: 42,871
+Non-trainable params: 0
+_________________________________________________________________
+None
+Train on 469529 samples, validate on 117383 samples
+Epoch 1/5
+469529/469529 - 176s - loss: 0.6748 - accuracy: 0.5530 - val_loss: 0.6692 - val_accuracy: 0.5669
+Epoch 2/5
+469529/469529 - 185s - loss: 0.6604 - accuracy: 0.5864 - val_loss: 0.6649 - val_accuracy: 0.5762
+Epoch 3/5
+469529/469529 - 161s - loss: 0.6484 - accuracy: 0.6066 - val_loss: 0.6610 - val_accuracy: 0.5857
+Epoch 4/5
+469529/469529 - 173s - loss: 0.6364 - accuracy: 0.6238 - val_loss: 0.6588 - val_accuracy: 0.5924
+Epoch 5/5
+469529/469529 - 160s - loss: 0.6274 - accuracy: 0.6347 - val_loss: 0.6595 - val_accuracy: 0.5937
+Accuracy: 59.01%
+Kmer:  7
+Model: "sequential_2"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_2 (Embedding)      (None, None, 10)          163850    
+_________________________________________________________________
+bidirectional_2 (Bidirection (None, 20)                1680      
+_________________________________________________________________
+dense_4 (Dense)              (None, 10)                210       
+_________________________________________________________________
+dense_5 (Dense)              (None, 1)                 11        
+=================================================================
+Total params: 165,751
+Trainable params: 165,751
+Non-trainable params: 0
+_________________________________________________________________
+None
+Train on 469529 samples, validate on 117383 samples
+Epoch 1/5
+469529/469529 - 163s - loss: 0.6680 - accuracy: 0.5684 - val_loss: 0.6549 - val_accuracy: 0.5958
+Epoch 2/5
+469529/469529 - 146s - loss: 0.6248 - accuracy: 0.6403 - val_loss: 0.6428 - val_accuracy: 0.6150
+Epoch 3/5
+469529/469529 - 145s - loss: 0.5906 - accuracy: 0.6778 - val_loss: 0.6375 - val_accuracy: 0.6274
+Epoch 4/5
+469529/469529 - 152s - loss: 0.5634 - accuracy: 0.7024 - val_loss: 0.6322 - val_accuracy: 0.6369
+Epoch 5/5
+469529/469529 - 155s - loss: 0.5399 - accuracy: 0.7227 - val_loss: 0.6385 - val_accuracy: 0.6428
+Accuracy: 64.08%
+Kmer:  8
+Model: "sequential_3"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_3 (Embedding)      (None, None, 10)          654450    
+_________________________________________________________________
+bidirectional_3 (Bidirection (None, 20)                1680      
+_________________________________________________________________
+dense_6 (Dense)              (None, 10)                210       
+_________________________________________________________________
+dense_7 (Dense)              (None, 1)                 11        
+=================================================================
+Total params: 656,351
+Trainable params: 656,351
+Non-trainable params: 0
+_________________________________________________________________
+None
+Train on 469529 samples, validate on 117383 samples
+Epoch 1/5
+469529/469529 - 173s - loss: 0.6593 - accuracy: 0.5818 - val_loss: 0.6340 - val_accuracy: 0.6212
+Epoch 2/5
+469529/469529 - 177s - loss: 0.5657 - accuracy: 0.6962 - val_loss: 0.6127 - val_accuracy: 0.6536
+Epoch 3/5
+469529/469529 - 172s - loss: 0.4906 - accuracy: 0.7542 - val_loss: 0.6121 - val_accuracy: 0.6696
+Epoch 4/5
+469529/469529 - 179s - loss: 0.4378 - accuracy: 0.7900 - val_loss: 0.6174 - val_accuracy: 0.6805
+Epoch 5/5
+469529/469529 - 168s - loss: 0.3990 - accuracy: 0.8143 - val_loss: 0.6028 - val_accuracy: 0.6902
+Accuracy: 68.86%
+Kmer:  9
+Model: "sequential_4"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_4 (Embedding)      (None, None, 10)          2544140   
+_________________________________________________________________
+bidirectional_4 (Bidirection (None, 20)                1680      
+_________________________________________________________________
+dense_8 (Dense)              (None, 10)                210       
+_________________________________________________________________
+dense_9 (Dense)              (None, 1)                 11        
+=================================================================
+Total params: 2,546,041
+Trainable params: 2,546,041
+Non-trainable params: 0
+_________________________________________________________________
+None
+Train on 469529 samples, validate on 117383 samples
+Epoch 1/5
+469529/469529 - 255s - loss: 0.6395 - accuracy: 0.6068 - val_loss: 0.6050 - val_accuracy: 0.6490
+Epoch 2/5
+469529/469529 - 247s - loss: 0.5040 - accuracy: 0.7437 - val_loss: 0.6041 - val_accuracy: 0.6666
+Epoch 3/5
+469529/469529 - 243s - loss: 0.4400 - accuracy: 0.7876 - val_loss: 0.5952 - val_accuracy: 0.6853
+Epoch 4/5
+469529/469529 - 243s - loss: 0.3663 - accuracy: 0.8317 - val_loss: 0.5910 - val_accuracy: 0.7032
+Epoch 5/5
+469529/469529 - 236s - loss: 0.2973 - accuracy: 0.8687 - val_loss: 0.5893 - val_accuracy: 0.7116
+Accuracy: 71.32%
+Kmer:  10
+Model: "sequential_5"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding_5 (Embedding)      (None, None, 10)          8608210   
+_________________________________________________________________
+bidirectional_5 (Bidirection (None, 20)                1680      
+_________________________________________________________________
+dense_10 (Dense)             (None, 10)                210       
+_________________________________________________________________
+dense_11 (Dense)             (None, 1)                 11        
+=================================================================
+Total params: 8,610,111
+Trainable params: 8,610,111
+Non-trainable params: 0
+_________________________________________________________________
+None
+Train on 469529 samples, validate on 117383 samples
+Epoch 1/5
+469529/469529 - 1476s - loss: 0.6196 - accuracy: 0.6259 - val_loss: 0.5690 - val_accuracy: 0.6827
+Epoch 2/5
+469529/469529 - 1531s - loss: 0.3957 - accuracy: 0.8133 - val_loss: 0.5614 - val_accuracy: 0.7100
+Epoch 3/5
+469529/469529 - 1519s - loss: 0.2898 - accuracy: 0.8723 - val_loss: 0.6002 - val_accuracy: 0.7194
+Epoch 4/5

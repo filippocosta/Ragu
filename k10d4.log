@@ -1,0 +1,36 @@
+Num GPUs Available:  1
+Finished 20000 entries
+Finished 40000 entries
+Finished 60000 entries
+Kmer:  10
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+embedding (Embedding)        (None, None, 4)           3776952   
+_________________________________________________________________
+bidirectional (Bidirectional (None, 4)                 112       
+_________________________________________________________________
+dense (Dense)                (None, 4)                 20        
+_________________________________________________________________
+dense_1 (Dense)              (None, 1)                 5         
+=================================================================
+Total params: 3,777,089
+Trainable params: 3,777,089
+Non-trainable params: 0
+_________________________________________________________________
+None
+Train on 469529 samples, validate on 117383 samples
+Epoch 1/5
+2020-05-29 09:12:08.409980: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcublas.so.10
+2020-05-29 09:12:09.209939: I tensorflow/stream_executor/platform/default/dso_loader.cc:44] Successfully opened dynamic library libcudnn.so.7
+469529/469529 - 735s - loss: 0.3026 - accuracy: 0.8516 - val_loss: 0.1064 - val_accuracy: 0.9594
+Epoch 2/5
+469529/469529 - 724s - loss: 0.0514 - accuracy: 0.9813 - val_loss: 0.0670 - val_accuracy: 0.9771
+Epoch 3/5
+469529/469529 - 726s - loss: 0.0245 - accuracy: 0.9914 - val_loss: 0.0467 - val_accuracy: 0.9839
+Epoch 4/5
+469529/469529 - 738s - loss: 0.0144 - accuracy: 0.9952 - val_loss: 0.0372 - val_accuracy: 0.9883
+Epoch 5/5
+469529/469529 - 740s - loss: 0.0093 - accuracy: 0.9969 - val_loss: 0.0333 - val_accuracy: 0.9901
+Accuracy: 98.96%
